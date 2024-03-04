@@ -1,4 +1,13 @@
+## YouTube Video Summarizer
+
+This project provides an automated solution for summarizing YouTube videos. It leverages the `youtube_transcript_api` to fetch transcripts, utilizes `langchain` to harness an open-source, locally installed large language model (LLM), and employs the `streamlit` library to create a user-friendly web application for video summarization.
+
+
 **Features:**
+
+* Automatic video summarization
+
+*Features:**
 
 - Leverages `youtube_transcript_api` to fetch transcripts
 - Utilizes `langchain` to harness the open-source, locally installed OLLama's Llama2 large language model (LLM) for summarization
