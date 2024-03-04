@@ -1,11 +1,7 @@
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from langchain_community.llms import Ollama
-from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
-# from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-
-
 
 
 def transcript(youtube_video_url):
@@ -34,9 +30,6 @@ def summarizer(transcript_text,words):
     return response
     
     
-
-
-
 st.title("Youtube Video Summarizer")
 youtube_link=st.text_input("Enter Youtube url you want summary of:")
 words=st.text_input("Enter the number of words you want summary in:")
