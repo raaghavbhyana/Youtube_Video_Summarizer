@@ -24,6 +24,8 @@ This project provides an automated solution for summarizing YouTube videos. It l
 
 - This project requires a locally installed Ollama application and the Llama2 LLM model.
 - Refer to the `langchain` documentation for setup instructions.
+- Use a high end GPU computer for faster output.
+
 
 **Upcoming Enhancements:**
 
